@@ -110,7 +110,8 @@
 .no-letter-spacing {
     letter-spacing: 0;
 }
-.cover__description{
+
+.cover__description {
     display: flex;
     justify-content: space-between;
     font-size: 22px;
@@ -285,15 +286,12 @@
 
 .footer__social-list {
     list-style: none;
+    display: flex;
+    gap: 48px;
+    justify-content: space-between;
 }
 
 .footer__social-icon {
     height: 48px;
     width: 48px;
-}
-
-.footer__social-list {
-    display: flex;
-    gap: 48px;
-    justify-content: space-between;
 }
