@@ -33,7 +33,7 @@
     height: 105px;
 }
 
-address {
+.address_block {
     max-width: 240px;
     display: flex;
     flex-direction: column;
@@ -70,12 +70,11 @@ address {
     position: relative;
     flex-direction: column;
     width: 100%;
-    padding: 165px 50px 106px;
+    padding: 165px 50px 50px;
     gap: 106px;
     text-transform: uppercase;
     color: white;
     z-index: 1;
-    height: 757px;
 }
 
 .cover__title {
